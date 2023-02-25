@@ -1,0 +1,27 @@
+{% extends 'base.html' %} {% block bodyblock %}
+<div class="container">
+    <br />
+        <h3 class="content">Upload image and predict mask</h3>
+    <br />
+{#        <div align="center">#}
+{#            <img #}
+{#                src = "{{ url_for('static',filename='images/001.png')}}" #}
+{#                alt="" #}
+{#                width="300" #}
+{#                height="150"#}
+{#            />#}
+{#        </div>#}
+        
+    <br />
+    <div align="center">
+    <a class="btn btn-outline-primary" href="{{ url_for('face_recog') }}"
+        >Upload image and predict </a
+    >
+    </div>
+    <br />
+
+
+
+</div>
+
+{% endblock %}

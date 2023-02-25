@@ -1,0 +1,17 @@
+Flask
+numpy
+requests
+responses
+torch
+torchvision
+pandas
+opencv-python
+matplotlib
+tqdm
+pyyaml
+seaborn
+thop
+tensorflow
+keras
+scipy
+Pillow
